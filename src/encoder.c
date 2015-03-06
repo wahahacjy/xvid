@@ -1928,6 +1928,8 @@ static void SliceCodeP(SMPData *data) {
 
 				if (bSkip) {
 					/* do SKIP */
+					fprintf(cjy_enc, "MB at %dx%d SKIP\n", x, y);
+
 					pMB->mode = MODE_NOT_CODED;
 					MBSkip(bs);
 					stop_coding_timer();

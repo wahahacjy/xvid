@@ -812,7 +812,7 @@ static const uint8_t Code_Len24[64] = { 5, 7, 7, 7, 7, 8, 8, 8, 8, 9, 9, 9, 9,
 		18, 18, 18, 18, 18, 18, 18, 18, 19, 19, 19, 19, 19, 19 };
 
 static const uint8_t * const B16_17_Code_Len[24] = { /* levels [1..24] */
-		Code_Len20, Code_Len19, Code_Len18, Code_Len17, Code_Len16, Code_Len15,
+Code_Len20, Code_Len19, Code_Len18, Code_Len17, Code_Len16, Code_Len15,
 		Code_Len14, Code_Len13, Code_Len12, Code_Len11, Code_Len10, Code_Len9,
 		Code_Len8, Code_Len7, Code_Len6, Code_Len5, Code_Len4, Code_Len3,
 		Code_Len3, Code_Len2, Code_Len2, Code_Len1, Code_Len1, Code_Len1, };
